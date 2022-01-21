@@ -1,0 +1,16 @@
+.bd-body{
+    background-image: url("background.jpg");
+    font-family: cursive;
+}
+.logindivp1{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+.logindivp2{
+    margin-left: 400px;
+}
+label{
+    font-size: 19.5px;
+    margin-top: 5px;
+}
