@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <title>Maths Quiz Time!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style-my-page.css">
+
+</head>
+
+<body style="background-image: url(background.jpg);">
+    <h4 id="player1nm"></h4><span id="p1score"></span>
+    <br>
+    <h4 id="player2nm"></h4><span id="p2score"></span>
+    <hr>
+    <div class="container">
+        <center><h2 class="text-danger">Maths Quiz</h2>
+        <h3 class="text-primary" id="questionplayer"></h3>
+            <h3 class="text-primary" id="answerplayer"></h3>
+            <br> <br>
+            <div class="col-lg-6" id="output"></div>
+            <label style="font-family: cursive; font-size: 20px;"><b style= "color: red;">Try putting numbers bigger than 20 for a tougher competition if the player is above the age of 10.</b></label>
+            <br>
+            <input id="number1" type="text" placeholder="Enter a number. For ex. 25">
+            <input id="number2" type="text" placeholder="Enter another number. Ex-4">
+            <br><br>
+            <button type="button" onclick="send();" class="btn btn-success">Send Challenge</button>
+            </center>
+    </div>
+</body>
+
+</html>

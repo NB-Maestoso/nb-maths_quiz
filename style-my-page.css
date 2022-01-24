@@ -1,0 +1,10 @@
+#number1{
+    margin-right: 15px;
+    margin-top: 15px;
+};
+#output{
+    background-color: bisque;
+    border-radius: 10px;
+    border-top: 10px solid #ff1cb3;
+    text-align: left;
+};
