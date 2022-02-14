@@ -26,3 +26,33 @@ function send() {
     document.getElementById("number1").innerHTML = "";
     document.getElementById("number2").innerHTML = "";
 }
+question_turn = "player1";
+answer_turn = "player2";
+function check(){
+    get_answer = document.getElementById("input_box").value;
+    answer = get_answer.toLowerCase;
+    console.log(answer);
+    
+    if(answer == tvalue){
+        if (answer_turn == "player1"){
+            player1score = player1score + 1;
+            console.log(player1score);
+            document.getElementById("p1score").innerHTML = player1score;
+        }
+        if (answer_turn == "player2"){
+            player2score = player2score + 1;
+            console.log(player2score);
+            document.getElementById("p2score").innerHTML = player2score;
+        }
+    }
+    if (question_turn == "player1"){
+        question_turn = "player2"
+        console.log(question_turn);
+        document.getElementById("questionplayer").innerHTML = "Question turn-" + player2name;
+    }
+    else{
+        question_turn = "player1"
+        console.log(question_turn);
+        document.getElementById("questionplayer").innerHTML = "Question turn-" + player1name;
+    }
+}
